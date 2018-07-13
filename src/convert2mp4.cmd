@@ -1,0 +1,1 @@
+"C:\Program Files\Handbrake\HandBrakeCLI.exe"  -i "%1" -t 1 --angle 1 -c 1 -o "%1.mp4"  -f mp4  -w 1280 --crop 0:0:0:0 --loose-anamorphic  --modulus 2 -e x264 -q 18 --vfr -a 1,2 -E ac3,ac3 -6 stereo,stereo -R 48,48 -B 448,448 -D 0,0 --gain 0,0 --audio-fallback ac3 --subtitle scan --subtitle-burned=1 --markers="%1.csv" --encoder-level="4.0"  --encoder-profile=main  --verbose=1 -U 
